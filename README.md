@@ -6,7 +6,7 @@ docker run --rm -v $(pwd):/app composer create-project --prefer-dist laravel/lar
 copy-item fidex/docker/* fidex
 # Abra a raiz do pojeto
 cd projeto-nome
-#Criar e executar a imagem docker 
+# Criar e executar a imagem docker 
 docker-compose up -d --build
 # Acessar o projeto
 http://localhost:8080/
